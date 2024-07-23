@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Retirado de : http://www.projetotifacil.com/2018/07/como-fazer-um-layout-basico-usando-html.html -->
+<html>
+<meta charset="utf-8"/>               <!-- Decodificação para Português -->
+<head>
+<title>Estrutura Básica HTML</title>  <!-- Título da página -->
+<style>                               /* Tag de estilo CSS */
+     body{                            /* Estilo utilizado no corpo do site */
+          text-decoration: underline; /* sublinhado */
+          font-size:20px;             /* Tamanho da fonte */
+          text-align: center;         /* Define a posição do texto no centro */
+}
+     #cabecalho{
+          width: 100%;                /* Largura 100% da página */
+          height: 100px;              /* Altura */
+          border: 1px solid black;    /* Borda */
+          background: #CDCDC1;        /* Cor de fundo do cabeçalho */
+}
+     #menu{
+         float: left;                 /* Posição do Menu, esquerdo */
+         min-height: 300px;           /* Tamanho mínimo 300 píxels */
+         width: 200px;                /* Largura */
+         border: 1px solid black;     /* Borda */
+         background: #8b8b83;         /* Cor de fundo do menu */
+}
+     #conteudo{
+		 width: 100%;                 /* Largura 100% da página */
+         min-height: 300px;           /* Tamanho mínimo 300 píxels */
+         border: 1px solid black;     /* Borda */
+         background: white;           /* Cor de fundo do menu */
+}
+     #rodape{
+		 width: 100%;                 /* Largura 100% da página */
+         height: 50px;                /* Altura do rodapé */
+         border: 1px solid black;     /* Borda */
+         background: #CDCDC1;         /* Cor de fundo do menu */
+}
+</style>
+</head>
+<body>
+<div id="cabecalho">Cabeçalho</div>   <!-- Cabeçalho -->
+<div id="menu">Menu                   <!-- Menu -->
+     <ul>                             <!-- Lista de links -->
+         <li><a href="https://www.devmedia.com.br/" target="_blank">DevMedia</a></li>
+         <li><a href="https://www.tecmundo.com.br/" target="_blank">TecMundo</a></li>
+         <li><a href="https://diolinux.com.br/" target="_blank">DioLinux</a></li>
+         <li><a href="https://medium.com/" target="_blank">Medium</a></li>
+     </ul>
+</div>
+<div id="conteudo">Os melhores sites de TI!</div>     <!-- Conteúdo -->
+<div id="rodape">Rodapé</div>         <!-- Rodapé -->
+</body>
+</html>
